@@ -93,7 +93,6 @@ input[type="submit"] {
 button:hover,
 input[type="submit"]:hover {
   background-color: #44c662;
-<<<<<<< HEAD
   color:#44c662;
   transform: scale(1.08);
 }
@@ -105,10 +104,3 @@ input[type="submit"]:hover {
     transform: rotate(25deg);
   }
 }
-=======
- color:#44c662;
-    background-size: 200%;
-    transform: scale(1.05);
-}
-
->>>>>>> b87a20ae467ad1aae3b6cfce3bc16cae386195ab
