@@ -21,7 +21,11 @@
         }
         #icon{
           position: relative;
+<<<<<<< HEAD
           left: 500px;           
+=======
+          left: 500px;           /* move to left */
+>>>>>>> d4005c0b5132f946c8d714cfd0f64ef23809c460
           bottom: 100px;            
           width: 320px;
           padding: 25px;
@@ -93,6 +97,7 @@ input[type="submit"] {
 button:hover,
 input[type="submit"]:hover {
   background-color: #44c662;
+<<<<<<< HEAD
   transform: scale(1.08);
 }
 @keyframes rotateBtn {
@@ -103,3 +108,16 @@ input[type="submit"]:hover {
     transform: rotate(25deg);
   }
 }
+=======
+  color:#44c662;
+  transform: scale(1.08);
+}
+@keyframes rotateBtn {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(25deg);
+  }
+}
+>>>>>>> d4005c0b5132f946c8d714cfd0f64ef23809c460
