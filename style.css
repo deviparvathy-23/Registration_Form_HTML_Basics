@@ -93,7 +93,6 @@ input[type="submit"] {
 button:hover,
 input[type="submit"]:hover {
   background-color: #44c662;
-  color:#44c662;
   transform: scale(1.08);
 }
 @keyframes rotateBtn {
