@@ -3,6 +3,8 @@
             background-color:rgb(209, 124, 88);
             text-align: center;
              font-family: "Jockey One", sans-serif;
+             width:1200px;
+             margin:0 auto;
         }
         h1{
             text-align:center;
@@ -16,6 +18,20 @@
         }
         ul{
             font-style: oblique;
+        }
+        #icon{
+          position: relative;
+          left: 500px;           /* move to left */
+          bottom: 100px;            
+          width: 320px;
+          padding: 25px;
+          background: linear-gradient(135deg, #daba53, #22d3ee);
+          border-radius: 20px;
+          color: rgb(44, 35, 35);
+          text-align: center;
+          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+          animation: rotateBtn 3s linear infinite;
+          transition: background 0.3s;
         }
         #form{
             padding-top: 20px   ;
@@ -65,7 +81,7 @@ input[type="submit"] {
   height: 100px;
   font-size: 18px;
   font-weight: bold;
-  background-color: #4f46e5;
+  background-color: #376f14;
   color: white;
   border: none;
   border-radius: 25px;
@@ -77,8 +93,22 @@ input[type="submit"] {
 button:hover,
 input[type="submit"]:hover {
   background-color: #44c662;
+<<<<<<< HEAD
+  color:#44c662;
+  transform: scale(1.08);
+}
+@keyframes rotateBtn {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(25deg);
+  }
+}
+=======
  color:#44c662;
     background-size: 200%;
     transform: scale(1.05);
 }
 
+>>>>>>> b87a20ae467ad1aae3b6cfce3bc16cae386195ab
