@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_form_bootcamp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Condiment&family=Delius&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Condiment&family=Delius&family=Jockey+One&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="intro">
+    <h1>PYTHON BOOTCAMP REGISTRATION FORM</h1>
+    <p>This Python Bootcamp is designed to help learners build a strong foundation in Python programming through hands-on practice and real-world examples. The program focuses on core concepts, problem-solving skills, and practical applications, making it suitable for beginners as well as those looking to strengthen their coding skills. By the end of the bootcamp, participants will gain the confidence to write efficient Python code and apply it to projects and real-life scenarios</p>
+    <ul>
+        <li>Date:05/01/2026-10/01/2026</li>
+        <li>Time:9am-5pm</li>
+        <li>Location:Online</li>
+        <li>Fee:Rs.5000</li>
+    </ul>
+    </section>
+    
+    <br><br>
+    <section id="form">
+        <form >
+            <label for="name">Name:</label>
+            <input type="text" required id="name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="mail" required placeholder="abc@example.com" id="email">
+            <br><br>
+            <label for="phone">Phone No:</label>
+            <input type="tel" required pattern="[0-9]{10}" id="phone" >
+            <br><br>
+            <label for="year">Year of Study:</label>
+            <select id="year" required>
+                 <option value="none" selected disabled hidden>Select an Option</option>
+                <option value="1">1st Year</option>
+                <option value="2">2nd Year</option>
+                <option value="3">3rd Year</option>
+                <option value="4">4th Year</option>
+            </select>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <label ><input type="radio" name="gender" value="Male">Male</label>
+            <label><input type="radio" name="gender" value="Female">Female</label>
+            <label><input type="radio" name="gender" value="Others">Others</label>
+            <br><br>
+            <label for="languages">Familiar languages:</label>
+            <input type="checkbox">
+            <label for="c">C</label>
+            <input type="checkbox">
+            <label for="java">Java</label>
+            <input type="checkbox">
+            <label for="python">Python</label>
+            <br><br>
+             <button id="button"
+                    type="Register">Register
+                </button>
+        </form>
+    </section>
+    </main>
+
+</body>
+</html>
